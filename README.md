@@ -30,6 +30,7 @@ The workaround is to uninstall `zx` before doing `bundle insall`.
  1. generate static website in `./_site`
     ```
     JEKYLL_ENV=production bundle exec jekyll build
+    bundle exec jekyll build
     ```
 
  2. checkout ASF repo
